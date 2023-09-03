@@ -1,0 +1,73 @@
+## Room Booking System Documentation
+
+
+1. **Introduction**
+   - Brief overview of the project.
+     Overview
+     The Room Booking System is a web application designed to simplify the process of reserving rooms and managing bookings for various purposes. 
+     This project was developed to address the need for a flexible and user-friendly solution for booking rooms in a shared workspace, conference center, or any environment where room reservations are essential.
+       
+   - Purpose and objectives.
+     The primary purpose of this project is to provide an efficient and intuitive platform for users to:
+
+   - View the availability of different types of rooms.
+   - Reserve a room for a specific date and time.
+   - Modify or cancel existing bookings.
+   - Easily access information about their bookings.
+   - Enable administrators to oversee and manage room reservations.
+
+2. **Getting Started**
+   - System requirements - All browsers are supported.
+   - How to set up and run the project locally.
+   - simply clone the repository and click on go live..
+
+3. **Project Structure**
+   - Explanation of the project's file and directory structure.
+   - This project contains 3 files index.html, styles.css and script.js.
+
+4. **Technologies Used**
+   - List of technologies, libraries, and frameworks used.
+   - HTML, CSS, BOOTSTRAP, JAVASCRIPT.
+
+5. **User Interface**
+   - Description of the user interface components.
+   - simple components like dropdown, buttons, title tags.
+
+6. **Functionality**
+   - Detailed explanation of the project's functionality.
+   - How users can:
+     - View available rooms.
+     - Book a room.
+     - Cancel a booking.
+     - Edit a booking.
+     - View bookings.
+
+7. **Booking Logic**
+    - Detailed explanation of booking-related functions.
+    - User selects the type of room and time slot wanted to book for, and simply click on book room as easy as eating banana 😁😁.
+    - How booking validation is implemented.
+    - one slot booked will not show for the room type selected if a slot has been booked the slot will automatically be removed dynamicaly.
+    - Handling booking conflicts.
+    - Other users cannot book the same slot which leads to conflict.
+
+8. **Cancellation Logic**
+    - User can simply cancel their booking in the click of a button.
+    - How canceled slots become available again means when the user cancels the booking then that slot will automatically become available for users again.
+
+9. **Displaying Bookings**
+    - Bookings are displayed according to the time wise in Ascending order.
+    - They are shown in their categories like all bookings for mini rooms will come under mini bookings title and same way as others.
+    - Grouping and sorting bookings by room and time.
+
+10. **Known Issues and Limitations**
+    - This has some limitations like we can just book but i have not developed edit time slots to change/update the booked slots.
+    - Edit time slot feature is not implemented..
+
+11. **Future Enhancements**
+    - I want to make this application more powerful by taking some real time examples.
+
+12. **Contact Information**
+    - contact me through email: saikrishna3400283@gmail.com
+
+13. **Credits and Acknowledgments**
+    - Done by MADUGULA LEELA VENKATA SAIKRISHNA.
